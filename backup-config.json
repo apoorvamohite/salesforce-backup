@@ -1,0 +1,22 @@
+{
+    "orgs": [
+        {
+            "orgName": "DEV Example 1",
+            "orgAlias":"DEV1",
+            "command": "sfdx force:source:retrieve -x manifest/package.xml",
+            "folderLocation": "C:\\Users\\username\\Documents\\DEV_Org1",
+            "zipLocation":"C:\\Users\\username\\Documents",
+            "cliArgumentName": "dev1",
+            "backup": "Y"
+        },
+        {
+            "orgName": "QA Example 2",
+            "orgAlias":"QA2",
+            "command": "sfdx force:source:retrieve -x manifest/package.xml",
+            "folderLocation": "C:\\Users\\amohite003\\Documents\\QA_Org2",
+            "zipLocation":"C:\\Users\\amohite003\\Documents",
+            "cliArgumentName": "qa2",
+            "backup": "N"
+        }
+    ]
+}
